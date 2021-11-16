@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+/* .container {
+  border: 1px solid steelblue;
+  width: 300px;
+  height: 500px;
+  margin: 1rem auto;
+  padding: 10px;
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn {
+  background-color: lightblue;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}

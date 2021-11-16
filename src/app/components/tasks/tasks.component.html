@@ -1,0 +1,11 @@
+<app-add-task (onAddingNewTasks)="OnSubmitNewTask($event)"></app-add-task>
+
+<app-task-item
+  *ngFor="let task of tasks"
+  [task]="task"
+  (OnDelete)="OnDeleteClick(task)"
+  (Toggle)="OnToggle(task)"
+>
+</app-task-item>
+
+<!-- <p *ngFor="let task of tasks">{{ task.text }}</p> -->

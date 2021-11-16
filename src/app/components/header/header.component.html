@@ -1,0 +1,17 @@
+<header>
+  <h1>Task Tracker</h1>
+  <app-button
+    *ngIf="routerCheck('/')"
+    color="{{ showAddTask ? 'red' : 'green' }}"
+    text="{{ showAddTask ? 'Close' : 'Add' }}"
+    (onButtonClick)="onButton()"
+  ></app-button>
+
+  <!--    
+  <div>
+    Months :
+    <select>
+      <option *ngFor="let i of months">{{ i }}</option>
+    </select>
+  </div> -->
+</header>
